@@ -74,7 +74,7 @@ de yürütülmesidir. Web sitesini çalıştırmak için bu abonelik gerekli de�
 
 src/app/pages/        Portföy, hesap, yönetim, sipariş ve canlı proje bağlantıları.
 src/app/core/         Üyelik istemcisi, form doğrulaması ve site asistanı.
-src/styles.css        Görünüm, mobil tasarım ve kaydırma animasyonları.
+src/styles.css        Görünüm, mobil tasarım, kaydırma ve hover efektleri.
 server/               Yerel API, yetkilendirme ve kalıcı veri deposu.
 netlify/functions/    İsteğe bağlı ayrı yayın için sunucu işlevi.
 scripts/              Yerel başlatma ve portal/asistan doğrulamaları.
