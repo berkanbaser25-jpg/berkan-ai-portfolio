@@ -7,6 +7,12 @@ Yapay zekâ ve web geliştirme çalışmalarını tanıtan Angular portföyüdü
 Ana sayfa, hakkımda/iletişim, üyelik, yönetici paneli, hesap ayarları,
 sipariş talepleri ve site destek asistanı yerelde çalışır.
 
+Ana sayfa beş sahneli üç boyutlu bir sunumdur: Giriş, Market, Kavşak,
+Yaklaşım ve İletişim. Bölüm düğmeleri, sağ/sol yön tuşları, Home ve End
+ile gezinilir. Fare hareketi üç boyutlu sahnenin bakışını değiştirir.
+Hareketi azalt seçeneği animasyonları durdurur. Tam ekran isteğine izin
+verilmezse sunum sayfa içinde ekranı kaplar; Esc ile çıkılır.
+
 Market Planlayıcı ve Kavşak Laboratuvarı sayfaları çalışan uygulama için
 Netlify bağlantısı gösterir. Bu public pakette bu iki uygulamanın algoritma
 kodları, eğitilmiş modelleri, katsayıları, veri setleri, sentetik görüntüleri,
@@ -56,8 +62,10 @@ seçer; haricî büyük dil modeli API'si kullanmaz.
 4. TEKNOLOJİLER
 
 Angular 22.3, TypeScript 6, HTML/CSS, Angular Router/Forms, RxJS,
-Node.js 24, yerelde SQLite, Netlify Functions ve Netlify Blobs.
+Node.js 24, Animate.css 4.1.1, yerelde SQLite, Netlify Functions ve Netlify Blobs.
 Bu public sürüm ONNX Runtime veya yapay zekâ model dosyası gerektirmez.
+Animate.css kaynak: https://animate.style/
+Lisans: public/third-party/ANIMATE_CSS_LICENSE.txt
 
 5. YAPAY ZEKÂ DESTEĞİ
 
@@ -73,6 +81,7 @@ de yürütülmesidir. Web sitesini çalıştırmak için bu abonelik gerekli de�
 6. DOSYALAR VE KONTROLLER
 
 src/app/pages/        Portföy, hesap, yönetim, sipariş ve canlı proje bağlantıları.
+presentation.component.ts / .css   3D sunum sahneleri ve etkileşimleri.
 src/app/core/         Üyelik istemcisi, form doğrulaması ve site asistanı.
 src/styles.css        Görünüm, mobil tasarım, kaydırma ve hover efektleri.
 server/               Yerel API, yetkilendirme ve kalıcı veri deposu.
@@ -98,7 +107,8 @@ en az 16 karakterlik güçlü bir başlangıç şifresiyle tanımlanır. Kaynağ
 veya tarayıcı dosyalarına gerçek yönetici şifresi yazılmaz.
 
 Teslim formunda public GitHub adresini ve canlı Netlify adresini paylaşın.
-Bu güncelleme mevcut Netlify uygulamasını dağıtmaz veya değiştirmez.
+Canlı Netlify sürümünde iki uygulama çalışır durumdadır. GitHub dağıtımı
+yalnızca bu uygulamalara bağlantı verir; model ve algoritmalar dağıtılmaz.
 
 Ekran görüntüleri: dokumantasyon/gorseller/ana-sayfa.jpg ve
 dokumantasyon/gorseller/kavsak-laboratuvari.jpg. İkinci görüntü yerel sürümdeki
