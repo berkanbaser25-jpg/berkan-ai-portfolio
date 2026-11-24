@@ -10,6 +10,8 @@ sipariş talepleri ve site destek asistanı yerelde çalışır.
 Ana sayfa beş sahneli üç boyutlu bir sunumdur: Giriş, Market, Kavşak,
 Yaklaşım ve İletişim. Bölüm düğmeleri, sağ/sol yön tuşları, Home ve End
 ile gezinilir. Fare hareketi üç boyutlu sahnenin bakışını değiştirir.
+Telefonda kompakt kart düzeni ve ekranın altında sabit Önceki/Sonraki
+düğmeleri kullanılır. Bölüm değişince yeni içerik görünür alana alınır.
 Hareketi azalt seçeneği animasyonları durdurur. Tam ekran isteğine izin
 verilmezse sunum sayfa içinde ekranı kaplar; Esc ile çıkılır.
 
