@@ -1,5 +1,5 @@
 BERKAN BAŞER — ANGULAR WEB PORTFÖYÜ / PUBLIC SÜRÜM
-24 Kasım 2026
+25 Kasım 2026
 
 1. PROJE VE KAPSAM
 
@@ -12,6 +12,9 @@ Yaklaşım ve İletişim. Bölüm düğmeleri, sağ/sol yön tuşları, Home ve 
 ile gezinilir. Fare hareketi üç boyutlu sahnenin bakışını değiştirir.
 Telefonda kompakt kart düzeni ve ekranın altında sabit Önceki/Sonraki
 düğmeleri kullanılır. Bölüm değişince yeni içerik görünür alana alınır.
+Mobil kartlarda yakınlaşarak giriş, katman hareketi, sırayla yükselen
+sütunlar ve kavşak akışı animasyonları bulunur. Dikey ekranda sahne
+değişince animasyonlu kart da görünür alana alınır.
 Hareketi azalt seçeneği animasyonları durdurur. Tam ekran isteğine izin
 verilmezse sunum sayfa içinde ekranı kaplar; Esc ile çıkılır.
 
